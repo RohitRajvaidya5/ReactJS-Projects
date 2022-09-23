@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,89 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  line-height: 150px;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Digitalism Regular';
+  font-weight: normal;
+  margin: 80px;
+  background-color: rgba(0, 0, 0, 0.911);
+  color: rgb(155, 57, 194);
+  text-shadow: 3px 3px 15px rgb(0, 0, 0);
+  border-radius: 40px;
+}
+
+.container {
+
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width : 700px){
+  h1{
+    line-height: 75px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Digitalism Regular';
+  font-weight: normal;
+  margin: 40px;
+  background-color: rgba(0, 0, 0, 0.911);
+  color: rgb(155, 57, 194);
+  text-shadow: 3px 3px 15px rgb(0, 0, 0);
+  border-radius: 20px;
+
+  }
+  
+}
+.clock1 {
+
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.911);
+  margin: 15px;
+  order: 4;
+  color: rgb(10, 88, 255);
+  border-radius: 40px;
+  font-size: 90px;
+  font-family: 'LCD Normal';
+  font-weight: normal;
+  line-height: 250px;
+  text-shadow: 2px 2px 6px #000;
+  text-align:center;
+  box-shadow: 10px black;
+  flex-shrink: inherit;
+  flex-wrap: wrap;
+
+
+}
+
+.clock2 {
+
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.911);
+  order: 4;
+  color: rgb(243, 57, 57);
+  border-radius: 20px;
+  font-size: 50px;
+  font-family: 'LCD Normal';
+  font-weight: normal;
+  margin-bottom: 17px;
+  line-height: 100px;
+  text-shadow: 2px 2px 6px #000;
+  text-align: center;
+  box-shadow: 10px black;
+  margin-left: 10px;
+  flex-wrap: wrap;
+
+
 }
